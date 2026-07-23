@@ -38,8 +38,21 @@ activities = {
         "schedule": "Mondays, Wednesdays, Fridays, 2:00 PM - 3:00 PM",
         "max_participants": 30,
         "participants": ["john@mergington.edu", "olivia@mergington.edu"]
+    },
+    "Art Club": {
+            "description": "Explore drawing, painting, and mixed media projects",
+            "schedule": "Wednesdays, 4:00 PM - 5:30 PM",
+            "max_participants": 18,
+            "participants": ["ava@mergington.edu"]
+        },
+    "Debate Team": {
+        "description": "Practice public speaking and competitive debating",
+        "schedule": "Tuesdays, 5:00 PM - 6:30 PM",
+        "max_participants": 16,
+        "participants": ["liam@mergington.edu"]
     }
 }
+
 
 
 @app.get("/")
